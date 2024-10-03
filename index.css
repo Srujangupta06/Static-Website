@@ -282,6 +282,12 @@ footer {
     flex-direction: column;
     align-items: center;
   }
+  .section-card-heading{
+    font-size: 20px;
+  }
+  .section-card-description{
+    font-size: 16px;
+  }
   .section-info-container {
     width: 90%;
     border-radius: 8px;
