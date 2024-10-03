@@ -159,7 +159,7 @@ nav {
   border: 1px solid #6dac8a;
   margin-top: 20px;
 }
-section {
+.farming-info-container {
   height: 75vh;
   display: flex;
   flex-direction: column;
@@ -216,9 +216,80 @@ section {
   width: 48px;
 }
 footer {
-    display: none;
+  display: none;
+}
+.products-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+}
+.product-card {
+  border-radius: 12px;
+  box-shadow: 10px 10px 25px #c0c0c0;
+  width: 200px;
+  margin: 24px;
+}
+.product-img {
+  width: 100%;
+  height: 130px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
 }
 
+.product-name {
+  color: #6dac8a;
+}
+.product-actual-price {
+  font-size: 16px;
+}
+.product-deal-price {
+  color: rgb(240, 49, 49);
+  margin-left: 12px;
+}
+.product-actual-price span {
+  text-decoration: line-through;
+}
+.prices-container {
+  display: flex;
+  align-items: center;
+}
+.product-location {
+  font-size: 12px;
+  margin-bottom: 8px;
+  color: #959494;
+}
+.product-btn-img {
+  height: 24px;
+  width: 24px;
+}
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product-info-container {
+  padding: 12px 8px;
+}
+.buy-now-btn {
+  background-color: #6dac8a;
+  font-size: 14px;
+  color: #ffffff;
+  border: none;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer-links ul li {
+  list-style-type: none;
+}
 @media screen and (max-width: 767px) {
   .nav-logo {
     margin-left: 24px;
@@ -270,7 +341,7 @@ footer {
   .benefits-card-container {
     margin: 16px 0px;
   }
-  section {
+  .farming-info-container {
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -282,16 +353,19 @@ footer {
     flex-direction: column;
     align-items: center;
   }
-  .section-card-heading{
-    font-size: 20px;
+  .section-card-heading {
+    font-size: 18px;
   }
-  .section-card-description{
-    font-size: 16px;
+  .section-card-description {
+    font-size: 14px;
   }
   .section-info-container {
     width: 90%;
     border-radius: 8px;
     margin: 16px;
+  }
+  .section-main-heading {
+    margin-top: 24px;
   }
 
   .video-card-container {
@@ -316,19 +390,25 @@ footer {
   }
   .nav-items-container li {
     list-style-type: none;
-    margin:0px 24px;
+    margin: 0px 24px;
   }
-  .nav-s-logo{
+  .nav-s-logo {
     height: 25px;
     width: 25px;
   }
-  .nav-s-link{
+  .nav-s-link {
     color: #6dac8a;
     font-size: 16px;
   }
-  .nav-s-item-container{
+  .nav-s-item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .products-container{
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 }
+
