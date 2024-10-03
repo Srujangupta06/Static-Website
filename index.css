@@ -292,6 +292,7 @@ footer {
 .footer-links {
   display: flex;
   justify-content: space-evenly;
+  padding: 32px ;
 }
 .footer-links ul li {
   list-style-type: none;
