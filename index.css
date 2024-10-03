@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-logo {
+  margin-left: 58px;
+}
+.nav-logo a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.nav-bar {
+  background-color: #6dac8a;
+  height: 60px;
+}
+.nav-links-container {
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+}
+.nav-links-container li {
+  list-style-type: none;
+}
+.nav-links-container li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+}
+.search-bar-container {
+  background-color: #ffffff;
+  border: 1px solid;
+  display: flex;
+  border-radius: 20px;
+  width: 270px;
+  border: none;
+  padding: 3px;
+}
+.location-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 8px;
+  margin-right: 8px;
+}
+.location-info-container label {
+  font-size: 12px;
+  color: #858383;
+}
+.location-info-container select {
+  border: none;
+  color: #6dac8a;
+  margin-right: 4px;
+}
+
+.search-bar {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+  border-radius: 16px;
+}
+.search-bar input {
+  outline: none;
+  padding: 8px;
+  border: none;
+  font-size: 12px;
+  color: #858383;
+  width: 150px;
+  border-left: 0.5px solid #6dac8a;
+}
+.search-icon {
+  height: 15px;
+  width: 15px;
+  margin-right: 8px;
+}
+.amberger-icon-container {
+  display: none;
+}
+.home-page-container {
+  height: calc(100vh - 60px);
+}
+.home-page-top-section {
+  background-color: #eafaf1;
+  height: 50vh;
+  border-bottom-right-radius: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 24px 0px;
+}
+.home-page-text-container {
+  padding: 12px;
+}
+.home-page-text-container h2 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.home-page-text-container h2 span {
+  color: #6dac8a;
+  font-size: 32px;
+  letter-spacing: 5px;
+}
+.home-page-text-container h1 {
+  font-size: 40px;
+  letter-spacing: 5px;
+  font-weight: 400;
+  margin-bottom: 28px;
+}
+.home-page-text-container h4 {
+  letter-spacing: 5px;
+  color: #6dac8a;
+  font-style: italic;
+  font-weight: normal;
+}
+.home-page-image {
+  width: 280px;
+  height: 280px;
+}
+.description {
+  color: #6dac8a;
+  text-align: center;
+  margin: 24px 0px 10px 0px;
+}
+.benefits-card-container {
+  height: 128px;
+  width: 205px;
+  border: 1px solid #6dac8a;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.benefits-card-img {
+  height: 48px;
+  width: 48px;
+  margin-bottom: 16px;
+}
+.benefits-card-description {
+  color: #959494;
+  font-size: 16px;
+}
+.benefits-card-flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 32px;
+}
+.ruler {
+  border: 1px solid #6dac8a;
+  margin-top: 20px;
+}
+section {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.section-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.section-main-heading {
+  color: #6dac8a;
+  font-weight: 600;
+  font-size: 28px;
+}
+.section-info-container {
+  border: 1px solid #6dac8a;
+  width: 600px;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  padding: 32px 36px;
+  margin-left: 65px;
+  background-color: #eafaf1;
+}
+.section-card-heading {
+  color: #6dac8a;
+  font-weight: 500;
+  font-size: 24px;
+  margin: 12px 12px;
+}
+.section-card-description {
+  color: #858383;
+  font-style: italic;
+  line-height: 1.5rem;
+  font-size: 18px;
+  margin-left: 12px;
+}
+.order-level {
+  order: 2;
+}
+.video-card-container {
+  background-color: #ededed;
+  height: 300px;
+  width: 550px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.video-play-btn-img {
+  height: 48px;
+  width: 48px;
+}
+footer {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-logo {
+    margin-left: 24px;
+  }
+  .nav-logo a {
+    font-size: 20px;
+  }
+  .search-bar-container {
+    display: none;
+  }
+  .nav-links-container {
+    display: none;
+  }
+  .amberger-icon-container {
+    display: block;
+    margin-right: 60px;
+  }
+  .nav-icon {
+    color: #ffffff;
+  }
+  .home-page-top-section {
+    flex-direction: column;
+    height: fit-content;
+    border-radius: 0px;
+  }
+  .home-page-text-container {
+    text-align: center;
+    margin: 28px 0px;
+  }
+  .home-page-text-container h2 {
+    font-size: 20px;
+  }
+  .home-page-text-container h2 span {
+    font-size: 24px;
+  }
+  .home-page-text-container h1 {
+    font-size: 32px;
+  }
+  .home-page-text-container h4 {
+    font-size: 16px;
+  }
+  .benefits-card-flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .description {
+    margin: 20px 0px 10px 0px;
+  }
+  .benefits-card-container {
+    margin: 16px 0px;
+  }
+  section {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+  }
+  .section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-info-container {
+    width: 90%;
+    border-radius: 8px;
+    margin: 16px;
+  }
+
+  .video-card-container {
+    width: 90%;
+    height: 200px;
+  }
+  footer {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #ffffff;
+  }
+  .nav-items-container {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #6dac8a;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    padding: 10px;
+  }
+  .nav-items-container li {
+    list-style-type: none;
+    margin:0px 24px;
+  }
+  .nav-s-logo{
+    height: 25px;
+    width: 25px;
+  }
+  .nav-s-link{
+    color: #6dac8a;
+    font-size: 16px;
+  }
+  .nav-s-item-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
