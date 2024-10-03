@@ -156,6 +156,12 @@ nav {
   align-items: center;
   margin-top: 32px;
 }
+.check-more-link{
+  color: #6dac8a;
+  text-decoration: none;
+  font-size: 20px;
+  margin-bottom: 28px;
+}
 .ruler {
   border: 1px solid #6dac8a;
   margin-top: 20px;
@@ -184,7 +190,6 @@ nav {
   border-top-left-radius: 100px;
   border-bottom-right-radius: 100px;
   padding: 32px 36px;
-  margin-left: 65px;
   background-color: #eafaf1;
 }
 .section-card-heading {
@@ -372,6 +377,7 @@ footer {
   .video-card-container {
     width: 90%;
     height: 200px;
+    order:2;
   }
   footer {
     display: block;
